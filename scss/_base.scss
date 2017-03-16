@@ -4,6 +4,11 @@ body {
   color: $color-font-1;
 
 }
+body::after {
+  content: "";
+  clear: both;
+  display: block;
+}
 
 .footer {
   border-top: 1px $color-font-2 solid;

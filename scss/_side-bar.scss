@@ -1,0 +1,17 @@
+.side-bar {
+  padding: 7rem 0;
+  float: left;
+  ul {
+    list-style: none;
+    padding-left: 2rem;
+  }
+  li {
+    padding: 1rem 0;
+  }
+  border: 1px $color-font-2 solid;
+  border-top: 1px $color-background solid;
+  width: 15%;
+  box-sizing: border-box;
+  display: none;
+
+}

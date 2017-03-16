@@ -7,3 +7,8 @@
 - clicking an album should load a list of the photos
 - clicking photos should open them individually full-screen for viewing
 - minimum of 6 photo albums with 3 photos in each
+
+
+## working through
+- side bar display none while on main page width 15%
+- body container width 84%

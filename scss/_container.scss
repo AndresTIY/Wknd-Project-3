@@ -1,5 +1,5 @@
 .container {
-  margin: 4rem 4rem 0 4rem;
+  margin: 4rem;
   text-align: center;
 
   .album-card {
@@ -12,4 +12,9 @@
     text-align: center;
     margin: .5rem 0;
   }
+
+}
+.body-container {
+  float: left;
+  // width: 85%;
 }
