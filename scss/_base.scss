@@ -1,0 +1,15 @@
+body {
+  background: $color-background;
+  font-family: Helvetica Neue, sans-serif;
+  color: $color-font-1;
+
+}
+
+.footer {
+  border-top: 1px $color-font-2 solid;
+  text-align: center;
+  font-size: .5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

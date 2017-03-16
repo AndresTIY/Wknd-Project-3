@@ -1,0 +1,15 @@
+.container {
+  margin: 4rem 4rem 0 4rem;
+  text-align: center;
+
+  .album-card {
+    border: 2px solid $color-font-2;
+    width: 25%;
+    display: inline-block;
+    margin: 2rem 1rem;
+  }
+  p {
+    text-align: center;
+    margin: .5rem 0;
+  }
+}
