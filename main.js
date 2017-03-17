@@ -35,8 +35,45 @@ var $albumCard1 = $('#album1');
 $albumCard1.on('click', function(e){
   $('#album-header-1').addClass('title-displayed')
 })
+var $albumCard2 = $('#album2');
+$albumCard2.on('click', function(e){
+  $('#album-header-2').addClass('title-displayed')
+})
+var $albumCard3 = $('#album3');
+$albumCard3.on('click', function(e){
+  $('#album-header-3').addClass('title-displayed')
+})
+var $albumCard4 = $('#album4');
+$albumCard4.on('click', function(e){
+  $('#album-header-4').addClass('title-displayed')
+})
+var $albumCard5 = $('#album5');
+$albumCard5.on('click', function(e){
+  $('#album-header-5').addClass('title-displayed')
+})
+var $albumCard6 = $('#album6');
+$albumCard6.on('click', function(e){
+  $('#album-header-6').addClass('title-displayed')
+})
 //dom traversal
 // console.log('it works'); this works in the code above
+var $home = $('.home-page');
+$home.on('click', function(e){
+  var $sideBar = $('.side-bar');
+  $sideBar.removeClass('bar-display-on');
+  $sideBar.addClass('bar-display-off');
+  var $bodyContainer = $('.body-container');
+  $bodyContainer.addClass('body-container-og');
+  $bodyContainer.removeClass('body-container-width');
+  var $header = $('.main-header');
+  $header.removeClass('album-header');
+  $header.addClass('og-header');
+  var $headerDisplay = $('.title');
+  $headerDisplay.removeClass('title-displayed');
+  var $resetHeaderDisplay = $('#main-title');
+  $resetHeaderDisplay.addClass('title-displayed');
+
+});
 
 
 
