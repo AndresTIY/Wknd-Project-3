@@ -1,9 +1,20 @@
 .album-card {
-  img {
+  .album-img {
     display: block;
     width: 100%;
     border-bottom: 2px solid $color-font-2;
-
-
   }
+  .img-rm {
+    display: none;
+  }
+  .cap-rm {
+    display: none;
+  }
+  .photo-on {
+    display: block;
+  }
+  .photo-cap-on {
+    display: block;
+  }
+
 }

@@ -1,6 +1,6 @@
-//make album card area clickable
 var $album = $('.album-card');
 $album.on('click',function(e){
+
   var $sideBar = $('.side-bar');
   $sideBar.addClass('bar-display-on');
   $sideBar.removeClass('bar-display-off');
@@ -16,7 +16,12 @@ $album.on('click',function(e){
 
   var $headerDisplay = $('.title');
   $headerDisplay.removeClass('title-displayed');
-  // $headerDisplay.addClass('title-displayed');
+
+  var $albumImg = $('.album-img');
+  $albumImg.addClass('album-img-rm');
+
+  var $albumCap = $('.album-caption');
+  $albumCap.addClass('album-cap-rm');
 
 
 });
@@ -44,7 +49,6 @@ var $albumCard6 = $('.album6');
 $albumCard6.on('click', function(e){
   $('#album-header-6').addClass('title-displayed')
 })
-//dom traversal
 
 
 var $home = $('.home-page');
@@ -62,6 +66,11 @@ $home.on('click', function(e){
   $headerDisplay.removeClass('title-displayed');
   var $resetHeaderDisplay = $('#main-title');
   $resetHeaderDisplay.addClass('title-displayed');
+  var $albumImg = $('.album-img');
+  $albumImg.removeClass('img-rm');
+
+  var $albumCap = $('.album-caption');
+  $albumCap.removeClass('cap-rm');
 });
 
 
