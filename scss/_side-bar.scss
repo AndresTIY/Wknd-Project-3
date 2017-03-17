@@ -1,17 +1,27 @@
-.side-bar {
-  padding: 7rem 0;
+.bar-display-off {
+    display: none;
+}
+.bar-display-on {
+  padding: 12rem 0;
   float: left;
   ul {
     list-style: none;
-    padding-left: 2rem;
+    padding-left: 0;
+    text-align: center;
   }
   li {
     padding: 1rem 0;
   }
+  li:hover {
+    color: $color-offwhite;
+    background: $color-header-bg;
+  }
+
   border: 1px $color-font-2 solid;
   border-top: 1px $color-background solid;
+  border-bottom: 1px $color-background solid;
   width: 15%;
   box-sizing: border-box;
-  display: none;
+
 
 }

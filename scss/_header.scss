@@ -1,6 +1,6 @@
-header {
+.og-header {
   text-align: center;
-  background:  #294e70;
+  background:  $color-header-bg;
   color: $color-font-2;
   padding: .5rem;
   border-bottom: 2px $color-font-2 solid;
@@ -13,4 +13,25 @@ header {
     vertical-align: middle;
   }
 
+}
+.album-header{
+  text-align: center;
+  background:  $color-background;
+  color: $color-font-1;
+  padding: .5rem;
+  border-bottom: 2px $color-font-2 solid;
+  h1 {
+    margin-top: 2rem;
+  }
+  img {
+    width: 3rem;
+    padding-right: 3rem;
+    vertical-align: middle;
+  }
+}
+.title {
+  display:none
+}
+.title-displayed {
+  display: block
 }

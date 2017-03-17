@@ -8,47 +8,98 @@
     <meta charset="utf-8">
     <title>Photo-Dres</title>
   </head>
+  <!-- bar-display-on -->
   <body>
-    <div class="side-bar">
+    <div class="side-bar bar-display-off">
       <ul>
-        <li>Album 1</li>
-        <li>Album 2 </li>
-        <li>Album 3</li>
-        <li>Album 4</li>
-        <li>Album 5</li>
-        <li>Album 6</li>
+        <li class="albums">
+          <a href="#album1">Album 1</a>
+        </li>
+        <li class="albums">
+          <a href="#album2">Album 2</a>
+        </li>
+        <li class="albums">
+          <a href="#album3">Album 3</a>
+        </li>
+        <li class="albums">
+          <a href="#album4">Album 4</a>
+        </li>
+        <li class="albums">
+          <a href="#album5">Album 5</a>
+        </li>
+        <li class="albums">
+          <a href="#album6">Album 6</a>
+        </li>
       </ul>
     </div>
-    <div class="body-container">
-      <header>
-        <h1><img src="images/code-dres-icon.svg" alt="">My Albums</h1>
+    <div class="body-container body-container-og">
+      <header class="main-header og-header">
+        <h1 class="title title-displayed">
+          <img src="images/code-dres-icon.svg" alt="">
+          My Albums
+        </h1>
+        <h1 id="album-header-1" class="title">
+          <img src="images/code-dres-icon.svg" alt="">
+          Album 1
+        </h1>
+        <h1 id="album-header-2" class="title">
+          <img src="images/code-dres-icon.svg" alt="">
+          Album 2
+        </h1>
+        <h1 id="album-header-3" class="title">
+          <img src="images/code-dres-icon.svg" alt="">
+          Album 3
+        </h1>
+        <h1 id="album-header-4" class="title">
+          <img src="images/code-dres-icon.svg" alt="">
+          Album 4
+        </h1>
+        <h1 id="album-header-5" class="title">
+          <img src="images/code-dres-icon.svg" alt="">
+          Album 5
+        </h1>
+        <h1 id="album-header-6" class="title">
+          <img src="images/code-dres-icon.svg" alt="">
+          Album 6
+        </h1>
       </header>
       <div class="container">
-          <div class="album-card">
-            <img src="images/ales-krivec-107499.jpg" alt="">
-            <p class="caption">Album 1</p>
-          </div>
-          <div class="album-card">
-            <img src="images/ales-krivec-107499.jpg" alt="">
-            <p class="caption">Album 2</p>
-          </div>
-          <div class="album-card">
-            <img src="images/ales-krivec-107499.jpg" alt="">
-            <p class="caption">Album 3</p>
-          </div>
-          <div class="album-card">
-            <img src="images/ales-krivec-107499.jpg" alt="">
-            <p class="caption">Album 4</p>
-          </div>
-          <div class="album-card">
-            <img src="images/ales-krivec-107499.jpg" alt="">
-            <p class="caption">Album 5</p>
-          </div>
-          <div class="album-card">
-            <img src="images/ales-krivec-107499.jpg" alt="">
-            <p class="caption">Album 6</p>
-
-          </div>
+        <a href="#album1">
+            <div id="album1" class="album-card album-selected">
+              <img src="images/album-1/camille-minouflet-111751.jpg" alt="">
+              <p class="caption">Album 1</p>
+            </div>
+        </a>
+        <a href="#album2">
+            <div id="album2" class="album-card">
+              <img src="images/album-2/felix-russell-saw-190802.jpg" alt="">
+              <p class="caption">Album 2</p>
+            </div>
+        </a>
+        <a href="#album3">
+            <div id="album3" class="album-card">
+              <img src="images/album-3/arto-marttinen-133621.jpg" alt="">
+              <p class="caption">Album 3</p>
+            </div>
+        </a>
+        <a href="#album4">
+            <div id="album4" class="album-card">
+              <img src="images/album-4/gary-bendig-185238.jpg" alt="">
+              <p class="caption">Album 4</p>
+            </div>
+        </a>
+        <a href="#album5">
+            <div id="album5" class="album-card">
+              <img src="images/album-5/lemuel-butler-515.jpg" alt="">
+              <p class="caption">Album 5</p>
+            </div>
+        </a>
+        <a href="#album6">
+            <div id="album6" class="album-card">
+              <img src="images/album-6/aneta-ivanova-776.jpg" alt="">
+              <p class="caption">Album 6</p>
+            </div>
+        </a>
 
 
 

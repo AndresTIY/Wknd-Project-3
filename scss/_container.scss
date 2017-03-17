@@ -8,13 +8,28 @@
     display: inline-block;
     margin: 2rem 1rem;
   }
+  .album-card:hover{
+    color: $color-offwhite;
+    background: $color-header-bg;
+  }
   p {
     text-align: center;
     margin: .5rem 0;
   }
 
 }
-.body-container {
+.body-container-og {
   float: left;
-  // width: 85%;
+
+}
+.body-container-width {
+  float: left;
+  width: 85%;
+
+}
+// .body-container-after-being-clickedon{
+//   width: 85%
+// }
+.album-selected {
+
 }
