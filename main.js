@@ -18,45 +18,35 @@ $album.on('click',function(e){
   $headerDisplay.removeClass('title-displayed');
   // $headerDisplay.addClass('title-displayed');
 
-  // var $target = $(e.target);
-  // var albumCardId = $target.closest('a');
-  // $(albumCardId).addClass('title-displayed');
-  //clicking on album card add's title-displayed class to 'a' tag
-  //we want to click on card and add that class to h1 tag
 
-
-
-
-// var sdf= $(e.target)
-// sdf.closest('a')
-// finds closest anchor tag
 });
-var $albumCard1 = $('#album1');
+var $albumCard1 = $('.album1');
 $albumCard1.on('click', function(e){
   $('#album-header-1').addClass('title-displayed')
 })
-var $albumCard2 = $('#album2');
+var $albumCard2 = $('.album2');
 $albumCard2.on('click', function(e){
   $('#album-header-2').addClass('title-displayed')
 })
-var $albumCard3 = $('#album3');
+var $albumCard3 = $('.album3');
 $albumCard3.on('click', function(e){
   $('#album-header-3').addClass('title-displayed')
 })
-var $albumCard4 = $('#album4');
+var $albumCard4 = $('.album4');
 $albumCard4.on('click', function(e){
   $('#album-header-4').addClass('title-displayed')
 })
-var $albumCard5 = $('#album5');
+var $albumCard5 = $('.album5');
 $albumCard5.on('click', function(e){
   $('#album-header-5').addClass('title-displayed')
 })
-var $albumCard6 = $('#album6');
+var $albumCard6 = $('.album6');
 $albumCard6.on('click', function(e){
   $('#album-header-6').addClass('title-displayed')
 })
 //dom traversal
-// console.log('it works'); this works in the code above
+
+
 var $home = $('.home-page');
 $home.on('click', function(e){
   var $sideBar = $('.side-bar');
@@ -72,10 +62,15 @@ $home.on('click', function(e){
   $headerDisplay.removeClass('title-displayed');
   var $resetHeaderDisplay = $('#main-title');
   $resetHeaderDisplay.addClass('title-displayed');
-
 });
 
 
+//look into DOM traversal
+//e.target.hash doesn't always working
+// var $target = $(e.target);
+// var albumCardId = $target.closest('a');
+// $(albumCardId).addClass('title-displayed');
+//clicking on album card add's title-displayed class to 'a' tag
 
 //---------------Notes from previous exercise
 

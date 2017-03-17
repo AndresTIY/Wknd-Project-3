@@ -46,3 +46,11 @@
   - $(tabId)(which is = e.target.hash=#tab1) . addClass (adding a class here) ('selected') (add's 'selected' class to )
 -$tabContents.removeClass('selected') = $tabContents is the var that describes all 3 sections since all 3 has that class. if we click on any of those classes, the .selected class gets removed.
 -$(tabId).addClass('selected') adds the .selected class to the DIV SECTION that has the id of #tab1
+
+#### DOM traversal//look into DOM traversal
+
+e.target.hash doesn't always working
+var $target = $(e.target);
+var albumCardId = $target.closest('a');
+$(albumCardId).addClass('title-displayed');
+clicking on album card add's title-displayed class to 'a' tag
