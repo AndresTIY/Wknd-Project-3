@@ -24,37 +24,44 @@ $album.on('click',function(e){
 
 });
 
+var $list = $('.list');
+$list.on('click', function(e){
+  var $photoAnchor = $('.photo-a');
+  $photoAnchor.addClass('remove');
+})
+
 
 var $albumCard1 = $('.album1');
 $albumCard1.on('click', function(e){
-  $('#album-header-1').addClass('title-displayed')
-  // var $albumAnchor = $('.album-one');
+  $('#album-header-1').addClass('title-displayed');
   $('.album-one').removeClass('remove');
-
-//new album header displayed
-
-//
 })
 
 var $albumCard2 = $('.album2');
 $albumCard2.on('click', function(e){
-  $('#album-header-2').addClass('title-displayed')
+  $('#album-header-2').addClass('title-displayed');
+  $('.album-two').removeClass('remove');
 })
 var $albumCard3 = $('.album3');
 $albumCard3.on('click', function(e){
-  $('#album-header-3').addClass('title-displayed')
+  $('#album-header-3').addClass('title-displayed');
+  $('.album-three').removeClass('remove');
 })
 var $albumCard4 = $('.album4');
 $albumCard4.on('click', function(e){
-  $('#album-header-4').addClass('title-displayed')
+  $('#album-header-4').addClass('title-displayed');
+  $('.album-four').removeClass('remove');
 })
 var $albumCard5 = $('.album5');
 $albumCard5.on('click', function(e){
-  $('#album-header-5').addClass('title-displayed')
+  $('#album-header-5').addClass('title-displayed');
+  $('.album-five').removeClass('remove');
 })
 var $albumCard6 = $('.album6');
 $albumCard6.on('click', function(e){
-  $('#album-header-6').addClass('title-displayed')
+  $('#album-header-6').addClass('title-displayed');
+  $('.album-six').removeClass('remove');
+
 })
 
 
