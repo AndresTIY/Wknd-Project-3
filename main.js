@@ -17,18 +17,25 @@ $album.on('click',function(e){
   var $headerDisplay = $('.title');
   $headerDisplay.removeClass('title-displayed');
 
-  var $albumImg = $('.album-img');
-  $albumImg.addClass('album-img-rm');
 
-  var $albumCap = $('.album-caption');
-  $albumCap.addClass('album-cap-rm');
+  var $albumAnchor = $('.album-anchor');
+  $albumAnchor.addClass('remove');
 
 
 });
+
+
 var $albumCard1 = $('.album1');
 $albumCard1.on('click', function(e){
   $('#album-header-1').addClass('title-displayed')
+  // var $albumAnchor = $('.album-one');
+  $('.album-one').removeClass('remove');
+
+//new album header displayed
+
+//
 })
+
 var $albumCard2 = $('.album2');
 $albumCard2.on('click', function(e){
   $('#album-header-2').addClass('title-displayed')
@@ -66,11 +73,10 @@ $home.on('click', function(e){
   $headerDisplay.removeClass('title-displayed');
   var $resetHeaderDisplay = $('#main-title');
   $resetHeaderDisplay.addClass('title-displayed');
-  var $albumImg = $('.album-img');
-  $albumImg.removeClass('img-rm');
-
-  var $albumCap = $('.album-caption');
-  $albumCap.removeClass('cap-rm');
+  var $albumAnchor = $('.album-anchor');
+  $albumAnchor.removeClass('remove');
+  var $photoAnchor = $('.photo-a');
+  $photoAnchor.addClass('remove');
 });
 
 
