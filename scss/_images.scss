@@ -1,19 +1,26 @@
+.remove {
+
+  display: none;
+}
 .album-card {
   .img {
     display: block;
     width: 100%;
     border-bottom: 2px solid $color-font-2;
   }
-
-  // .photo-on {
-  //   display: block;
-  // }
-  // .photo-cap-on {
-  //   display: block;
-  // }
-
-
 }
-.remove {
-  display: none;
+.photo-a {
+  .img {
+    display: block;
+    // width: 20%;
+    width: 100%;
+    border-bottom: 2px solid $color-font-2;
+  }
+}
+.photo-card-light {
+  .img {
+    width: 100%;
+    border-bottom: 2px solid $color-font-2;
+
+  }
 }

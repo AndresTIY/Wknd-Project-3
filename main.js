@@ -1,70 +1,66 @@
 var $album = $('.album-card');
 $album.on('click',function(e){
-
   var $sideBar = $('.side-bar');
   $sideBar.addClass('bar-display-on');
   $sideBar.removeClass('bar-display-off');
-
   var $bodyContainer = $('.body-container');
   $bodyContainer.addClass('body-container-width');
   $bodyContainer.removeClass('body-container-og');
-
   var $header = $('.main-header');
   $header.removeClass('og-header');
   $header.addClass('album-header');
-
-
   var $headerDisplay = $('.title');
   $headerDisplay.removeClass('title-displayed');
-
-
   var $albumAnchor = $('.album-anchor');
   $albumAnchor.addClass('remove');
-
-
 });
-
 var $list = $('.list');
 $list.on('click', function(e){
   var $photoAnchor = $('.photo-a');
   $photoAnchor.addClass('remove');
 })
-
-
 var $albumCard1 = $('.album1');
 $albumCard1.on('click', function(e){
   $('#album-header-1').addClass('title-displayed');
-  $('.album-one').removeClass('remove');
+  $('.card').addClass('photo-card')
+  $('.card').removeClass('photo-card-light');
+  $('.p-card-div').addClass('photo-card-light');
 })
-
 var $albumCard2 = $('.album2');
 $albumCard2.on('click', function(e){
   $('#album-header-2').addClass('title-displayed');
-  $('.album-two').removeClass('remove');
+  $('.card').removeClass('photo-card-light');
+  $('.card').addClass('photo-card');
+  $('.p-card-div2').addClass('photo-card-light');
 })
 var $albumCard3 = $('.album3');
 $albumCard3.on('click', function(e){
   $('#album-header-3').addClass('title-displayed');
-  $('.album-three').removeClass('remove');
+  $('.card').removeClass('photo-card-light');
+  $('.card').addClass('photo-card');
+  $('.p-card-div3').addClass('photo-card-light');
 })
 var $albumCard4 = $('.album4');
 $albumCard4.on('click', function(e){
   $('#album-header-4').addClass('title-displayed');
-  $('.album-four').removeClass('remove');
+  $('.card').removeClass('photo-card-light');
+  $('.card').addClass('photo-card');
+  $('.p-card-div4').addClass('photo-card-light');
 })
 var $albumCard5 = $('.album5');
 $albumCard5.on('click', function(e){
   $('#album-header-5').addClass('title-displayed');
-  $('.album-five').removeClass('remove');
+  $('.card').removeClass('photo-card-light');
+  $('.card').addClass('photo-card');
+  $('.p-card-div5').addClass('photo-card-light');
 })
 var $albumCard6 = $('.album6');
 $albumCard6.on('click', function(e){
   $('#album-header-6').addClass('title-displayed');
-  $('.album-six').removeClass('remove');
-
+  $('.card').removeClass('photo-card-light');
+  $('.card').addClass('photo-card');
+  $('.p-card-div6').addClass('photo-card-light');
 })
-
-
 var $home = $('.home-page');
 $home.on('click', function(e){
   var $sideBar = $('.side-bar');
@@ -82,8 +78,8 @@ $home.on('click', function(e){
   $resetHeaderDisplay.addClass('title-displayed');
   var $albumAnchor = $('.album-anchor');
   $albumAnchor.removeClass('remove');
-  var $photoAnchor = $('.photo-a');
-  $photoAnchor.addClass('remove');
+  $('.card').removeClass('photo-card-light');
+  $('.card').addClass('photo-card');
 });
 
 

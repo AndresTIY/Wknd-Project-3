@@ -12,6 +12,25 @@
     color: $color-offwhite;
     background: $color-header-bg;
   }
+  .photo-card {
+    border: 2px solid $color-font-2;
+    width: 25%;
+    // display: inline-block;
+    display: none;
+    margin: 2rem 1rem;
+  }
+  .photo-card-light {
+    border: 2px solid $color-font-2;
+    width: 25%;
+    display: inline-block;
+    // display: none;
+    margin: 2rem 1rem;
+  }
+
+  .photo-card-light:hover{
+    color: $color-offwhite;
+    background: $color-header-bg;
+  }
   p {
     text-align: center;
     margin: .5rem 0;
@@ -33,3 +52,5 @@
 .album-selected {
 
 }
+// we want to keep all of these styles just want a diff image
+// .container {.album-card, .album-card:hover, p} .body-container-og, .body-container-width
