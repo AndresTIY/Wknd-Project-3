@@ -29,6 +29,12 @@
     - all images should change to the photos in that album instead
     - reorganize photos DONE  
 
+##### Discovered lightbox
+- hope this isn't considered cheating but it seems like lightbox takes care of the styles and enlarging the images
+- lightbox image is an anchor tag, {display: none} doesn't work properly on it, had to apply it directly to the parent
+- using way to many class names overall
+
+
 #### jquery Notes
 - HTML has a list of TAB 1, TAB 2, TAB 3, so we click on one and we get a a new section
 - the LI tag has a class of TAB
